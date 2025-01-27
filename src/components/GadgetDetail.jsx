@@ -34,13 +34,13 @@ const GadgetDetail = () => {
 
   const handleAddToCart = (id) => {
     addToStoredCartList(id);
-    alert("Item added to cart!");
+    // alert("Item added to cart!");
   };
 
   const handleAddToWishList = (id) => {
     addToStoredWishList(id);
     setIsWishListed(true);
-    alert("Item added to wish list!");
+    // alert("Item added to wish list!");
   };
 
   return (

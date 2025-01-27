@@ -54,15 +54,17 @@ const Dashboard = () => {
   const handleSortByPrice = () => {
     const sortedCart = [...cartItems].sort((a, b) => b.price - a.price);
     setCartItems(sortedCart);
+
     setSorted(true);
   };
 
   const handlePurchase = () => {
     // Empty the cart and reset total price
+    console.log("before purchase cart items: ", cartItems);
+    localStorage.removeItem("cart-list");
     setCartItems([]);
     setTotalCartPrice(0);
-
-    // Show the congratulatory modal
+    console.log("after purchase cart items: ", cartItems);
     setModalVisible(true);
   };
 

@@ -21,7 +21,7 @@ const addToStoredCartList = (id) => {
     const storedListStr = JSON.stringify(storedList);
     localStorage.setItem("cart-list", storedListStr);
     // ideally trigger toast from the component
-    toast("This book is added to your cart list.");
+    toast("This item is added to your cart list.");
   }
 };
 
@@ -45,6 +45,7 @@ const addToStoredWishList = (id) => {
     storedWishList.push(id);
     const storedWishListStr = JSON.stringify(storedWishList);
     localStorage.setItem("wish-list", storedWishListStr);
+    toast("Product has been added to your wish list.");
   }
 };
 
