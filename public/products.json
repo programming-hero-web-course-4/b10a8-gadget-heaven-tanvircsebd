@@ -1,0 +1,126 @@
+{
+  "products": [
+    {
+      "product_id": "SP101",
+      "product_title": "Galaxy S23",
+      "product_image": "https://i.ibb.co/c6ZyzxK/samsung.jpg",
+      "category": "Smartphones",
+      "price": 799,
+      "description": "Flagship smartphone with advanced features.",
+      "specifications": ["8GB RAM", "128GB Storage", "Triple Camera Setup"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "SP102",
+      "product_title": "iPhone 15",
+      "product_image": "https://i.ibb.co/H4ZycM3/iphone.jpg",
+      "category": "Smartphones",
+      "price": 999,
+      "description": "Premium smartphone with the latest iOS.",
+      "specifications": ["6GB RAM", "256GB Storage", "Dual Camera Setup"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "SP103",
+      "product_title": "Pixel 8",
+      "product_image": "https://i.ibb.co/c6ZyzxK/samsung.jpg",
+      "category": "Smartphones",
+      "price": 699,
+      "description": "Google's latest smartphone with AI features.",
+      "specifications": [
+        "12GB RAM",
+        "128GB Storage",
+        "Single Camera with AI Enhancements"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "SP104",
+      "product_title": "OnePlus 12",
+      "product_image": "https://i.ibb.co/H4ZycM3/iphone.jpg",
+      "category": "Smartphones",
+      "price": 649,
+      "description": "High-performance smartphone with sleek design.",
+      "specifications": ["16GB RAM", "256GB Storage", "Quad Camera Setup"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "SP105",
+      "product_title": "Moto Edge 40",
+      "product_image": "https://i.ibb.co/c6ZyzxK/samsung.jpg",
+      "category": "Smartphones",
+      "price": 599,
+      "description": "Affordable smartphone with premium features.",
+      "specifications": ["6GB RAM", "128GB Storage", "Dual Camera Setup"],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": "SP106",
+      "product_title": "Sony Xperia 5",
+      "product_image": "https://i.ibb.co/H4ZycM3/iphone.jpg",
+      "category": "Smartphones",
+      "price": 849,
+      "description": "Compact smartphone with advanced photography features.",
+      "specifications": ["8GB RAM", "128GB Storage", "Triple Camera Setup"],
+      "availability": false,
+      "rating": 4.4
+    },
+    {
+      "product_id": "LP201",
+      "product_title": "MacBook Pro 16",
+      "product_image": "https://i.ibb.co/JqbH2T4/macbook.jpg",
+      "category": "Laptops",
+      "price": 2499,
+      "description": "High-end laptop for professionals.",
+      "specifications": ["16GB RAM", "1TB SSD", "M2 Pro Chip"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "LP202",
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.ibb.co/JqbH2T4/macbook.jpg",
+      "category": "Laptops",
+      "price": 1299,
+      "description": "Ultraportable laptop with powerful performance.",
+      "specifications": ["16GB RAM", "512GB SSD", "Intel Core i7"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "AC301",
+      "product_title": "Bose QuietComfort 45",
+      "product_image": "https://i.ibb.co/H4ZycM3/iphone.jpg",
+      "category": "Accessories",
+      "price": 329,
+      "description": "Noise-cancelling wireless headphones.",
+      "specifications": [
+        "Bluetooth Connectivity",
+        "30 Hours Battery Life",
+        "Active Noise Cancelling"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "AC302",
+      "product_title": "Logitech MX Master 3",
+      "product_image": "https://i.ibb.co/JqbH2T4/macbook.jpg",
+      "category": "Accessories",
+      "price": 99,
+      "description": "Advanced wireless mouse for productivity.",
+      "specifications": [
+        "Ergonomic Design",
+        "Customizable Buttons",
+        "USB-C Charging"
+      ],
+      "availability": true,
+      "rating": 4.6
+    }
+  ]
+}
