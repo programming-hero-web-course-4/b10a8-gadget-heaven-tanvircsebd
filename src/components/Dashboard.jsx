@@ -73,12 +73,10 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
+    <div className="min-h-screen bg-gray-100 p-6 -mt-60">
       <Helmet>
         <title>Dashboard - Gadget Heaven</title>
       </Helmet>
-      <h1 className="text-4xl font-bold mb-4">Dashboard</h1>
-
       <Tabs>
         <TabList>
           <Tab>Cart</Tab>
