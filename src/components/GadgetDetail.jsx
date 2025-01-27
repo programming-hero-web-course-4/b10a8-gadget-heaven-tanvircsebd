@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { addToStoredCartList, addToStoredWishList } from "../utility/AddToDb";
 import ReactStars from "react-rating-stars-component";
+import { Helmet } from "react-helmet";
 
 const GadgetDetail = () => {
   const { gadgetId } = useParams();
@@ -44,6 +45,9 @@ const GadgetDetail = () => {
 
   return (
     <div className="hero bg-base-200 min-h-screen">
+      <Helmet>
+        <title>Gadget Details - Gadget Heaven</title>
+      </Helmet>
       <div className="hero-content flex-col lg:flex-row">
         <img
           src={product_image}
