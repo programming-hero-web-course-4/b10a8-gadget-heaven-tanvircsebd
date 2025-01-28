@@ -4,6 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { getStoredCartList } from "../utility/AddToDb";
 import Gadget from "./Gadget";
+import { Helmet } from "react-helmet";
 
 const Cart = () => {
   const [carts, setCarts] = useState([]);
@@ -22,6 +23,9 @@ const Cart = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Carts - Gadget Heaven</title>
+      </Helmet>
       {/* <h2 className="text-3xl my-8">This is Gadget Cart</h2> */}
       <h2>
         Number:
