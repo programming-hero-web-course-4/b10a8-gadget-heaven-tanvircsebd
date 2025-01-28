@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainLayout from "../layout/MainLayout";
-import ErrorPage from "../components/ErrorPage";
+import NotFound from "../components/NotFound";
 import Home from "../components/Home";
 import Dashboard from "../components/Dashboard";
 import GadgetDetail from "../components/GadgetDetail";
@@ -10,7 +10,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
-    errorElement: <ErrorPage></ErrorPage>,
+    errorElement: <NotFound></NotFound>,
     children: [
       {
         path: "/",
