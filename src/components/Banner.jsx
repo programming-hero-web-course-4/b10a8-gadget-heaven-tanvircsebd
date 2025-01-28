@@ -9,7 +9,7 @@ const Banner = () => {
     <div className="relative bg-purple-600 text-white mb-56">
       {/* Header Section */}
       {location.pathname == "/" && (
-        <div className="min-h-[50vh] flex flex-col items-center justify-center text-center px-6 z-20">
+        <div className="min-h-[70vh] flex flex-col items-center justify-center text-center px-6 z-20">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
             Upgrade Your Tech Accessorize with Gadget Heaven Accessories
           </h2>
@@ -24,7 +24,7 @@ const Banner = () => {
         </div>
       )}
       {location.pathname.includes("/gadget") && (
-        <div className="min-h-[70vh] flex flex-col items-center justify-center text-center px-6 z-20">
+        <div className="min-h-[50vh] flex flex-col items-center justify-center text-center px-6 z-20">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
             Product Details
           </h2>
@@ -39,7 +39,7 @@ const Banner = () => {
         </div>
       )}
       {location.pathname == "/dashboard" && (
-        <div className="min-h-[70vh] flex flex-col items-center justify-center text-center px-6 z-20">
+        <div className="min-h-[50vh] flex flex-col items-center justify-center text-center px-6 z-20">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">Dashboard</h2>
           <p className="max-w-3xl mb-6">
             Explore the latest gadgets that will take your experience to the
