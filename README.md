@@ -1,4 +1,4 @@
-# Biodata Viewer Application
+# Gadget E-commerce Application
 
 A professional and responsive web application to display and manage Gadget eCommerce elegantly. This project is built using React with a modern design powered by Tailwind CSS and DaisyUI.
 
